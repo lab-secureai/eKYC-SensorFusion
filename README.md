@@ -119,7 +119,7 @@ The hardware-injection category includes adaptive variants that may:
 └── README.md
 
 
-Notebook files
+## Notebook files
 ekyc_adversarial_experiment_executed.ipynb contains the evaluated run
 and stored outputs.
 ekyc_adversarial_experiment_clean.ipynb contains the same experiment
@@ -129,7 +129,7 @@ Python source
 src/ekyc_experiment.py contains the code cells extracted from the final
 notebook in their original execution order.
 
-Main Results
+## Main Results
 
 The full fusion model achieved the following closed-set results.
 
@@ -202,7 +202,7 @@ Genuine FRR	22.90%
 The OOD result is weaker than the closed-set result, indicating that unseen
 adaptive injection remains challenging.
 
-Metric Definitions
+##Metric Definitions
 
 In this repository:
 
@@ -217,7 +217,7 @@ accepted.
 Because attacks are encoded as the positive class, the security-oriented
 FAR definition corresponds to the classifier false-negative rate.
 
-Installation
+##Installation
 
 Clone the repository:
 
@@ -243,7 +243,7 @@ Install dependencies:
 pip install -r requirements.txt
 Running the Experiment
 
-Launch the clean notebook:
+##Launch the clean notebook:
 
 jupyter notebook notebooks/ekyc_adversarial_experiment_clean.ipynb
 
