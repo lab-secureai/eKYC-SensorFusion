@@ -292,7 +292,7 @@ education and reproducibility.
 
 The project is not intended to certify a production eKYC system.
 
-Limitations
+##Limitations
 
 This study has several important limitations.
 
@@ -308,7 +308,7 @@ The reported results are not production-ready biometric error rates.
 The results should therefore be interpreted as proof-of-concept evidence
 for the proposed architecture.
 
-Security and Privacy
+##Security and Privacy
 
 This repository contains synthetic data only. It does not contain real
 identity documents, face videos, biometric templates, or personal sensor
@@ -318,7 +318,7 @@ The implementation focuses on defensive verification and does not provide
 instructions or tools for compromising camera drivers, secure hardware, or
 mobile attestation services.
 
-Citation
+##Citation
 
 When the associated paper becomes publicly available, use the following
 template:
@@ -333,10 +333,10 @@ template:
   year      = {2026}
 }
 
-Update the title, venue, pages, DOI, and author information according to the
-final camera-ready publication.
+The title, venue, pages, DOI, and author information according to the
+final camera-ready publication will be updated after review process.
 
-License
+##License
 
 This project is released under the MIT License. See the
 LICENSE file for details.
