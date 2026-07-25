@@ -1,0 +1,16 @@
+metric,value
+ROC_AUC,0.905874074074074
+PR_AUC,0.9654315821193272
+LogLoss,0.3856033080697463
+Brier_score,0.1240367048517683
+EER,0.1761111111111111
+EER_threshold,0.4867021038802029
+FAR_attack_accepted,0.1755555555555555
+FRR_genuine_rejected,0.1766666666666666
+attack_detection_rate,0.8244444444444444
+genuine_acceptance_rate,0.8233333333333334
+accuracy,0.815
+true_negative,247.0
+false_positive,53.0
+false_negative,158.0
+true_positive,742.0

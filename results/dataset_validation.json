@@ -1,0 +1,27 @@
+{
+  "rows": 4000,
+  "columns": [
+    "session_id",
+    "type",
+    "label_attack",
+    "attestation_pass",
+    "attestation_score",
+    "flash_corr_zero_lag",
+    "flash_corr_best_lag",
+    "flash_best_lag_frames",
+    "imu_face_corr",
+    "latency_ms",
+    "fps",
+    "timestamp_skew_ms",
+    "response_std"
+  ],
+  "missing_values": 0,
+  "duplicate_rows": 0,
+  "unique_session_ids": 4000,
+  "session_type_counts": {
+    "genuine": 1000,
+    "software_repack": 1000,
+    "replay_attack": 1000,
+    "hardware_injection": 1000
+  }
+}
